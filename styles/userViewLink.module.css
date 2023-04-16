@@ -1,0 +1,142 @@
+.landingContainer {
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    padding: 0;
+    margin: 0;
+    background-image: url("../components/userViewBackground.svg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    margin: 0;
+    position: absolute;
+}
+
+.outlineText {
+    color: rgb(255, 255, 255);
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+.landingTitle {
+    font-weight: 900;
+    font-size: 47px;
+    line-height: 59px;
+    margin-top: 0;
+}
+
+.centerContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.linkContainer {
+    font-weight: 100;
+    border: 0.8px solid white;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.settingsContainer {
+    border: 0.8px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+}
+
+.settingsContainerTitle {
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.settingsContainerParagraph {
+    font-weight: 100;
+    width: 80%;
+    text-align: center;
+}
+
+.continueButton {
+    font-weight: 600;
+    border: 1px solid white;
+    background-color: #ffffff00;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+    color: white;
+    box-shadow: 0px 0px 30px 10px #712156;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 30px;
+}
+
+.signUpButton {
+    font-weight: 100;
+    border: 1px solid white;
+    background-color: #ffffff00;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.inputSection {
+    background-color: rgba(255, 255, 255, 0);
+    border: 1.2px white solid;
+    height: 45px;
+    width: 70%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    padding-left: 18px;
+    margin: 10px 0px;
+}
+
+.inputSection::placeholder {
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+  }
+
+  .landingParagraph {
+    font-weight: 100;
+    font-size: 17px;
+    margin-top: 0px;
+    margin-bottom: 35px;
+    width: 75%;
+}
+
+.signUpSection {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.companyInfo {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    align-items: space-between;
+}

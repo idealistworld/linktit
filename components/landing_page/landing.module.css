@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.landingContainer {
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    padding: 0;
+    margin: 0;
+    background-image: url("../background.svg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.landingParagraph {
+    font-weight: 100;
+    width: 90%;
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+.landingTitle {
+    font-weight: 900;
+    font-size: 47px;
+    line-height: 59px;
+    margin-top: 0;
+}
+
+.outlineText {
+    color: rgb(255, 255, 255);
+    -webkit-text-fill-color: rgba(255, 255, 255, 0); /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+.miniBrowser {
+    margin-bottom: 0px;
+}
+
+.landingContent {
+    padding-left: 20px;
+}
